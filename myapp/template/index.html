@@ -1,0 +1,42 @@
+<!-- myapp/templates/index.html -->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Little Lemon Restaurant</title>
+  </head>
+  <body>
+    <header>
+      <h1>Welcome to Little Lemon Restaurant</h1>
+    </header>
+
+    <nav>
+      <ul>
+        <li><a href="/">Home</a></li>
+        <li><a href="/menu/">Menu</a></li>
+        <li><a href="/bookings/">Bookings</a></li>
+        <!-- Add more navigation links as needed -->
+      </ul>
+    </nav>
+
+    <main>
+      <section id="content">
+        <h2>Featured Dishes</h2>
+        <!-- Add content related to featured dishes -->
+      </section>
+
+      <section id="bookings">
+        <h2>Table Bookings</h2>
+        <!-- Add content related to table bookings -->
+      </section>
+    </main>
+
+    <footer>
+      <p>&copy; 2023 Little Lemon Restaurant</p>
+    </footer>
+    <!-- Add this at the end of your HTML file -->
+    <script src="{% static 'js/script.js' %}"></script>
+  </body>
+</html>
